@@ -1,0 +1,547 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: HiraMinProN-W6;
+    background-image: url(main_bg1.jpg);
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+.top{
+    background-color: grey;
+    color: ivory;
+    height: 30px;
+    line-height: 30px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.top-logo{
+    float:left;
+    padding:50px 30px 2px 100px;
+}
+.top-logo img{
+    width: 250px;
+    height: 100px;
+}
+
+.tell{
+    color:green;
+    font-size:40px;
+    padding-top:10px;
+}
+.top-tell{
+    padding-top: 40px;
+    text-align: center;
+    font-size:20px;
+}
+.top-tell p{
+    line-height: 30px;
+}
+.top-tell .tell{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.top-btn{
+    padding:20px 20px;
+}
+.top-btn a{
+    display: block;
+    width:230px;
+    height: 50px;
+    background-color: rgba(42, 100, 226, 0.8);
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    font-size:30px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.top-list{
+    text-align: right;
+}
+.top-list li{
+    display: inline-block;
+    padding: 30px 50px 30px 30px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.top-list a{
+    text-decoration: none;
+}
+.top-list li:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.main-img{
+    background-image: url(main01.jpg);
+    background-size: cover;
+    width:  100%;
+    height: 550px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
+.free{
+    align-self: flex-end;
+    padding-bottom:20px;
+}
+.okazu{
+    padding:20px;
+}
+.main-free{
+    width: 100%;
+    margin: 0 auto;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    opacity: 0.8;
+}
+.free-container h2{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    color: maroon;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.free-container span{
+    font-size: 20px;
+}
+.free-container{
+    padding-bottom: 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+.free-container p{
+    padding:8px 12px;
+}
+.free-coment h3{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    color: maroon;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.free-coment{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.free-coment p{
+    padding:8px 12px;
+}
+.free-coment a{
+    display: block;
+    width: 500px;
+    height: 50px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 16px;
+    font-size: 24px;
+    margin: 20px auto;
+
+}
+.menu-wrapper{
+    width: 95%;
+    margin:0 auto;
+}
+.menu-wrapper h1{
+    width: 600px;
+    height: 50px;
+    margin: 50px auto 0;
+    background-color: #ff773e;
+    font-size:32px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    border-radius: 24px;
+    opacity: 0.8;
+}
+.menu-wrapper h4{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin: 40px 0 32px 0;
+    font-size: 24px;
+    background-color: #ffdbc9;
+    border: 2px solid black;
+    border-radius: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+.menu p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+.menu-wrapper span{
+    font-size: 24px;
+    color: #cc0000;
+}
+.menu-wrapper img{
+    margin:24px;
+
+}
+.bento p{
+    padding-left: 40px;
+}
+.bento1{
+    float: left;
+}
+.bento2{
+    float:right;
+}
+.bento4{
+    float: left;
+}
+.bento5{
+    float:left;
+}
+.bento6{
+    float:right;
+}
+.bento7{
+    float: left;
+}
+.bento8{
+    float:right;
+}
+.bento9{
+    float: left;
+}
+.bento10{
+    float:right;
+    margin-bottom: 30px;
+}
+.bento{
+    width: 50%;
+}
+.bento img{
+    width: 90%;
+    height: 300px;
+}
+.menu-free{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff69a3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu-free-container h2{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    color: #ff0461;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.menu-free-container span{
+    font-size: 20px;
+}
+.menu-free-container{
+    padding-bottom: 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+.menu-free-container p{
+    padding:8px 12px;
+}
+.menu-free-coment h3{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    color: #ff0461;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.menu-free-coment{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.menu-free-coment p{
+    padding:8px 12px;
+}
+.menu-free-coment a{
+    display: block;
+    width: 500px;
+    height: 50px;
+    color: white;
+    background-color: #555555;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 16px;
+    font-size: 24px;
+    margin: 20px auto;
+}
+.ques-wrapper h1{
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    background-color: pink;
+    border:2px solid black;
+    border-radius: 16px;
+    margin: 40px auto 20px;
+}
+.ques-top p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.question p{
+    font-size: 20px;
+}
+.qu{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+    border: 1px solid #555;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+.an{
+    line-height: 30px;
+    padding-left: 20px;
+}
+.font-q{
+    font-size: 24px;
+    color: #0000cc;
+}
+.font-a{
+    font-size:24px;
+    color: #cc0000;
+}
+.ques-free{
+    width: 100%;
+    margin: 50px auto;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ques-free-container h2{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    color: maroon;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.ques-free-container span{
+    font-size: 20px;
+}
+.ques-free-container{
+    padding-bottom: 20px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+.ques-free-container p{
+    padding:8px 12px;
+}
+.ques-free-coment h3{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    color: #660000;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.ques-free-coment{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.ques-free-coment p{
+    padding:8px 12px;
+}
+.ques-free-coment a{
+    display: block;
+    width: 500px;
+    height: 50px;
+    color: white;
+    background-color: #660000;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 16px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.order-wrapper h2{
+    font-size: 40px;
+    text-align: center;
+}
+.order-wrapper p{
+    text-align: center;
+    margin-top: 16px;
+}
+.order-list p{
+    text-align: center;
+    font-size: 32px;
+    color: #993333;
+}
+.order-list img{
+    width: 100%;
+    margin: 16px 0;
+}
+.order-list h3{
+    text-align: right;
+    margin-right: 30px;
+}
+.order-wrapper{
+    width: 100%;
+    height: 80px;
+}
+.order-contents{
+    background-color: white;
+    border: 2px solid grey;
+    margin: 32px 0;
+    padding-bottom: 32px;
+}
+
+.order-logo{
+    float:left;
+    padding:10px 10px 2px 50px;
+}
+
+.order-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0 0 30px;
+}
+.tell{
+    color:green;
+    font-size:30px;
+    padding-top:10px;
+}
+.order-tel{
+    text-align: center;
+    font-size:20px;
+}
+.order-tel .tell{
+    margin-left: 40px;
+}
+.order-btn{
+    padding:20px 20px;
+}
+.order-btn a{
+    display: block;
+    width:230px;
+    height: 50px;
+    background-color: rgba(42, 100, 226, 0.8);
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    font-size:30px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.btn a:hover{
+    background-color: white;
+    color: blue;
+}
+.footer-list li{
+    display: inline-block;
+    padding: 30px 50px 30px 30px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.footer-list li:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+
